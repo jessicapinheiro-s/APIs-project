@@ -17,7 +17,7 @@ document.getElementById('btPesquisarCep')
         fetch(urlApi).then(function (response) {
             response.json().then(mostrarEndereco);
         })
-        styleComponents();
+        styleComponents ();
     })
 
 function mostrarEndereco(dados) {
