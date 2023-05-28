@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-image: url(751d2d9fb5f9fa5de10fbac5faa8d54c.png);
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+#img {
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+#img img {
+    transition: all 0.5s;
+    width: 60%;
+}
+
+#img img:hover {
+    text-align: center;
+    width: 100%;
+    transform: scale(1.1);
+}
+
+#subContainer {
+    margin: auto;
+    display: flex;
+    padding: 25px;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.card{
+    width: 15%;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.search-input {
+    width: 70%;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+}
+
+.search-input,
+.search-container button {
+    border: none;
+    padding: 15px;
+
+}
+
+.search-container {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+}
+
+.search-container button {
+    background-color: #141414;
+    border-radius: 0px 10px 10px 0px;
+    color: #fff;
+    width: 20%;
+    font-size: 1.1rem;
+}
+.container-img{
+    text-align: center;
+    transition: all 0.5s;
+}
+.container-img:hover{
+    transform: scale(1.1);
+}
+.container-img img{
+    width: 70%;
+}
+
